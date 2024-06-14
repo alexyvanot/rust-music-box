@@ -1,0 +1,17 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ctrlc = "3.4.4"
+regex = "1.10.5"
+rodio = "0.18.1"
+tempfile = "3.10.1"
+ytd-rs = "0.1.7"
+
+[[bin]]
+name = "rust"
+path = "main.rs"
